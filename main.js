@@ -11,12 +11,13 @@ module.exports.loop = function(){
 
   // empireManager.run();
   // areaManager.resolveArea();
-  for(var roomName in Game.rooms):
+  for(var roomName in Game.rooms){
     roomManager.resolveRoom(Game.rooms[roomName]);
-
-  for(var creepName in Game.creeps):
+  }
+  for(var creepName in Game.creeps){
     creepManager.resolveCreep(Game.creeps[creepName]);
+  }
 
-  tempcode
+  // tempcode.run();
 
 }
