@@ -1,8 +1,8 @@
 "use strict";
 
-utils = require("utils");
-roomManager = require("roomManager");
-creepManager = require("creepManager");
+const utils = require("utils");
+const roomManager = require("roomManager");
+const creepManager = require("creepManager");
 
 require("setupGlobal")();  // global constants
 
